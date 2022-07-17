@@ -102,11 +102,16 @@ margin-bottom: 27px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 10px;
 }
+.course-banner{
+    padding: 10px;
+}
 
 .course .course-banner img{
 
-    width: 224px;
-    height: 104px;
+    width: 100%;
+}
+.course-info{
+    padding: 10px;
 }
 
 .course-title{
@@ -146,5 +151,11 @@ margin-bottom: 27px;
     color:#FF4A60 ;
     font-size: 14.6913px;
     justify-content: center;
+}
+
+.time span{
+    background-color: #FFE4E8;
+    border-radius: 15px ;
+    padding: 5px 10px;
 }
 
