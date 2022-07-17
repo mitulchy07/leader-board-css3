@@ -14,7 +14,7 @@ main{
     width: 870px;
     padding: 30px;
     border-radius: 5px;
-    margin-bottom: 34px;
+    margin-top: 21px;
     
 }
 
@@ -88,3 +88,63 @@ margin-bottom: 27px;
     font-size: 16px;
     color: #562eff;
 }
+
+/*-------------------
+   Top blog styles
+----------------------*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.course{
+    
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+
+.course .course-banner img{
+
+    width: 224px;
+    height: 104px;
+}
+
+.course-title{
+    font-size: 20.0336px;
+}
+.author-name{
+    color:#ED6B4F ;
+    font-size:14.6913px ;
+}
+
+
+.ratings-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ratings{
+    display: flex;
+    color: gold;
+}
+
+#empty{
+    color:#AEAEAE ;
+}
+
+.ratings-written h4{
+    font-size: 14.6913px;
+}
+
+.time img{
+    Width: 16.69px;
+    Height: 16.69px;
+}
+
+.time{
+    color:#FF4A60 ;
+    font-size: 14.6913px;
+    justify-content: center;
+}
+
